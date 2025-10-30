@@ -98,3 +98,87 @@ test-output/
 docker-compose.override.yml
 .env
 .env.*
+
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+flutter_*.png
+*.dart_tool/
+.pub/
+*.lock
+
+# Generated files
+*.g.dart
+*.mocks.dart
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+
+# Android specific
+android/.gradle/
+android/app/build/
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# iOS specific
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/DerivedData/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/*.xcuserstate
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/Runner.xcworkspace/
+macos/Runner.xcodeproj/project.xcworkspace/
+macos/Runner.xcodeproj/xcuserdata/
+
+# Windows
+windows/flutter/ephemeral/
+windows/runner/Debug/
+windows/runner/Release/
+
+# Web
+web/.dart_tool/
+web/.flutter-plugins
+web/.flutter-plugins-dependencies
+web/.firebase/
+web/.vscode/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Coverage and test output
+coverage/
+test/**/coverage/
+*.lcov
+
+# Symbolication and crash reports
+app.*.symbols
+
+# Generated files (logs, caches, etc.)
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Sensitive or local configuration
+.env
+.env.*
+firebase_options.dart
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
